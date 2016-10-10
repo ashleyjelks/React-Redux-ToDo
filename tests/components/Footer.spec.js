@@ -11,7 +11,7 @@ describe('(Component) Footer', () => {
   it('Renders a footer that reps our company', () => {
     const item = _wrapper.find('p');
     expect(item).to.exist;
-    expect(item.text()).to.match(/Copyright TrussWorks, 2016/);
+    expect(item.text()).to.match(/Copyright Info Goes Here/);
   });
 
   describe.skip('Navigation links...', () => {

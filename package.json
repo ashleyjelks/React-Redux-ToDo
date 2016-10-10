@@ -1,5 +1,5 @@
 {
-  "name": "dodiddone",
+  "name": "React-Redux-ToDo",
   "version": "1.0.0",
   "description": "Application to track work and tasks.",
   "main": "index.js",
@@ -7,8 +7,6 @@
     "babel": "./node_modules/.bin/babel",
     "babel-node": "./node_modules/.bin/babel-node",
     "dev-server": "nodemon server.js",
-    "heroku-off": "heroku ps:scale web=0 worker=0 builder=0",
-    "heroku-on": "heroku ps:scale web=1 builder=1 worker=1",
     "lint": "eslint . --ext .js --ext .jsx",
     "postinstall": "webpack --config ./webpack-production.config.js --progress --colors",
     "start": "node server.js",
@@ -16,14 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trussworks/DoDidDone.git"
+    "url": "https://github.com/ashleyjelks/React-Redux-ToDo.git"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/trussworks/DoDidDone/issues"
-  },
-  "homepage": "https://github.com/trussworks/DoDidDone#readme",
   "dependencies": {
     "babel-cli": "^6.7.7",
     "babel-core": "^6.7.4",

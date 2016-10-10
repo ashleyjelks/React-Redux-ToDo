@@ -7,7 +7,7 @@ import { Toolbar, ToolbarTitle, ToolbarGroup } from 'material-ui/Toolbar';
 export const Nav = () => (
   <Toolbar className="navbar" iconElementLeft={<div />}>
     <Link to={'/'} className="navbar__title">
-      <ToolbarTitle text="DoDoneDid" />
+      <ToolbarTitle text="React-Redux-ToDo" />
     </Link>
     <div className="navbar__container">
       <ToolbarGroup firstChild>
