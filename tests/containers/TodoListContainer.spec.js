@@ -1,5 +1,5 @@
 import React from 'react';
-import TodoListContainer from 'containers/TodoListContainer';
+import TodoListContainer from '../../app/containers/TodoListContainer';
 import { shallow } from 'enzyme';
 
 describe.skip('(Container) TodoListContainer', () => {

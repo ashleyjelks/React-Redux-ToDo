@@ -1,5 +1,5 @@
 import React from 'react';
-import { FAQs } from 'components/FAQs';
+import { FAQs } from '../../app/components/FAQs';
 import { shallow } from 'enzyme';
 
 describe('(Component) FAQs', () => {

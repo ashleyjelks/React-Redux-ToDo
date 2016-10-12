@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav } from 'components/Nav';
+import { Nav } from '../../app/components/Nav';
 import { shallow } from 'enzyme';
 
 describe('(Component) Nav', () => {

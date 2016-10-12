@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import TodoItem from './TodoItem';
 import { List } from 'immutable';
 
-export const TodoList = ({ todoItems, actions }) => (
+export const TodoListContent = ({ todoItems, actions }) => (
   <ul className="todo-list">
     {todoItems.map((todoItem, index) =>
       <TodoItem
@@ -15,9 +15,9 @@ export const TodoList = ({ todoItems, actions }) => (
   </ul>
 );
 
-TodoList.propTypes = {
+TodoListContent.propTypes = {
   actions: PropTypes.object.isRequired,
   todoItems: PropTypes.instanceOf(List)
 };
 
-export default TodoList;
+export default TodoListContent;

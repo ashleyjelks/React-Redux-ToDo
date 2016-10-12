@@ -1,5 +1,5 @@
 import React from 'react';
-import { HelpTabs } from 'components/HelpTabs';
+import { HelpTabs } from '../../app/components/HelpTabs';
 import { shallow } from 'enzyme';
 
 describe('(Component) HelpTabs', () => {

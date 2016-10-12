@@ -1,15 +1,15 @@
 import React from 'react';
-import { AddTodo } from 'components/AddTodo';
+import { AddTodoItem } from '../../app/components/TodoList/AddTodo';
 import { shallow } from 'enzyme';
 
-describe('(Component) AddTodo', () => {
+describe('(Component) AddTodoItem', () => {
   let _props, _wrapper;
 
   beforeEach(() => {
     _props = {
         dispatch: function() {}
     };
-    _wrapper = shallow(<AddTodo { ..._props } />);
+    _wrapper = shallow(<AddTodoItem { ..._props } />);
   });
 
   it('Renders a todo adding textfield', () => {

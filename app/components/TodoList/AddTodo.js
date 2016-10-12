@@ -2,8 +2,8 @@ import React, { PropTypes } from 'react';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
 
-export const AddTodo = ({ onSubmit }) => {
-  const addTodo = () => {
+export const AddTodoItem = ({ onSubmit }) => {
+  const addTodoItem = () => {
     let inputField = document.getElementById('addTodoText');
 
     if (inputField.value !== '') {
@@ -14,7 +14,7 @@ export const AddTodo = ({ onSubmit }) => {
 
   const submitOnEnter = (e) => {
     if (e.key === 'Enter') {
-      addTodo();
+      addTodoItem();
     }
   };
 
@@ -32,14 +32,14 @@ export const AddTodo = ({ onSubmit }) => {
         label="Add"
         className="add-todo__button"
         primary
-        onClick={addTodo}
+        onClick={addTodoItem}
       />
     </div>
   );
 };
 
-AddTodo.propTypes = {
+AddTodoItem.propTypes = {
   onSubmit: PropTypes.func.isRequired
 };
 
-export default AddTodo;
+export default AddTodoItem;

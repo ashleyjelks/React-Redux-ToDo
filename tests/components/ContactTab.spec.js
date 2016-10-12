@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContactTab } from 'components/ContactTab';
+import { ContactTab } from '../../app/components/ContactTab';
 import { shallow } from 'enzyme';
 
 describe('(Component) ContactTab', () => {

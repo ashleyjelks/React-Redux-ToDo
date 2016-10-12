@@ -4,8 +4,8 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import 'isomorphic-fetch';
 import * as TodoActions from '../actions/todosAction';
-import TodoList from '../components/TodoList/TodoList';
-import AddTodo from '../components/TodoList/AddTodo';
+import TodoListContent from '../components/TodoList/TodoList';
+import AddTodoItem from '../components/TodoList/AddTodo';
 
 class TodoListContainer extends React.Component {
   constructor(props) {
@@ -17,8 +17,8 @@ class TodoListContainer extends React.Component {
 
     return (
       <div>
-        <TodoList todoItems={todoItems} actions={actions}/>
-        <AddTodo onSubmit={actions.addTodoItem} />
+        <TodoListContent todoItems={todoItems} actions={actions}/>
+        <AddTodoItem onSubmit={actions.addTodoItem} />
       </div>
     );
   }
