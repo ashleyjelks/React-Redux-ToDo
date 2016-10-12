@@ -16,7 +16,7 @@ export const TodoListContent = ({ todoItems, actions }) => (
 );
 
 TodoListContent.propTypes = {
-  actions: PropTypes.object.isRequired,
+  actions: PropTypes.object,
   todoItems: PropTypes.instanceOf(List)
 };
 

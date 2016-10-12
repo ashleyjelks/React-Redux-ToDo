@@ -39,7 +39,7 @@ export const AddTodoItem = ({ onSubmit }) => {
 };
 
 AddTodoItem.propTypes = {
-  onSubmit: PropTypes.func.isRequired
+  onSubmit: PropTypes.func
 };
 
 export default AddTodoItem;

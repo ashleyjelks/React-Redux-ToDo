@@ -52,9 +52,9 @@ export class TodoItem extends React.Component {
 }
 
 TodoItem.propTypes = {
-  actions: PropTypes.object.isRequired,
-  index: PropTypes.number.isRequired,
-  todoItem: PropTypes.object.isRequired
+  actions: PropTypes.object,
+  index: PropTypes.number,
+  todoItem: PropTypes.object
 };
 
 export default TodoItem;
